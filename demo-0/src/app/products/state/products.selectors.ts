@@ -14,6 +14,11 @@ export const selectProductsLoading = createSelector(
   (productsState) => productsState.loading
 )
 
+export const selectProductsError = createSelector(
+  selectProductsSate,
+  (productsState) => productsState.errorMessage
+)
+
 export const selectProductsShowProductCode = createSelector(
   selectProductsSate,
   (productsState) => productsState.showProductCode

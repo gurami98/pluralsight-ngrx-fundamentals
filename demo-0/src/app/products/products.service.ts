@@ -7,7 +7,7 @@ import { catchError, Observable, throwError } from 'rxjs';
   providedIn: 'root',
 })
 export class ProductsService {
-  private productsAPIUrl = 'api/products';
+  private productsAPIUrl = 'api/productss';
 
   constructor(private http: HttpClient) {}
 
